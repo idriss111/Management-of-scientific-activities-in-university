@@ -1,0 +1,150 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 50vw;
+}
+
+.u-section-1 .u-group-1 {
+  width: 539px;
+  min-height: 388px;
+  height: auto;
+  margin: 96px 60px 0 auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 30px 30px 110px;
+}
+
+.u-section-1 .u-text-1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 154px;
+  width: 389px;
+  margin: 15px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 385px;
+  width: 541px;
+  background-image: none;
+  margin: -264px auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 534px;
+  height: 430px;
+  margin: -474px auto 60px 93px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    width: 486px;
+    margin-top: 86px;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 446px;
+    margin-top: -281px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 461px;
+    margin-left: 71px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    min-height: 403px;
+    margin-top: 60px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-bottom: 95px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 29px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 489px;
+    margin-top: -483px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1031px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 456px;
+    margin-top: 179px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 75px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 46px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 448px;
+    height: 397px;
+    margin-top: -474px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 708px;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 392px;
+    width: 283px;
+    margin-top: 60px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 70px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 215px;
+    width: 249px;
+    margin-top: 32px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 264px;
+    height: 264px;
+    margin-top: -303px;
+    margin-left: 33px;
+  }
+}
