@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "AdminFolder",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AdminFolder"
+	}
+}

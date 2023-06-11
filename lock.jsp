@@ -1,12 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>404 Page | Kiaalap - Kiaalap Admin Template</title>
+    <title>Lock | Kiaalap - Kiaalap Admin Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -17,44 +15,47 @@
     <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/bootstrap.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/bootstrap.min.css">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/font-awesome.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/font-awesome.min.css">
     <!-- owl.carousel CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/owl.carousel.css">
-    <link rel="stylesheet" href="../AdminFolder/css/owl.theme.css">
-    <link rel="stylesheet" href="../AdminFolder/css/owl.transitions.css">
+    <link rel="stylesheet" href="..AdminFolder/css/owl.carousel.css">
+    <link rel="stylesheet" href="..AdminFolder/css/owl.theme.css">
+    <link rel="stylesheet" href="..AdminFolder/css/owl.transitions.css">
     <!-- animate CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/animate.css">
+    <link rel="stylesheet" href="..AdminFolder/css/animate.css">
     <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/normalize.css">
+    <link rel="stylesheet" href="..AdminFolder/css/normalize.css">
     <!-- main CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/main.css">
+    <link rel="stylesheet" href="..AdminFolder/css/main.css">
     <!-- morrisjs CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/morrisjs/morris.css">
+    <link rel="stylesheet" href="..AdminFolder/css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../AdminFolder/css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="..AdminFolder/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../AdminFolder/css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="..AdminFolder/css/calendar/fullcalendar.print.min.css">
+    <!-- forms CSS
+		============================================ -->
+    <link rel="stylesheet" href="..AdminFolder/css/form/all-type-forms.css">
     <!-- style CSS
 		============================================ -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../AdminFolder/style.css">
     <!-- responsive CSS
 		============================================ -->
-    <link rel="stylesheet" href="../AdminFolder/css/responsive.css">
+    <link rel="stylesheet" href="..AdminFolder/css/responsive.css">
     <!-- modernizr JS
 		============================================ -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -64,19 +65,25 @@
     <!--[if lt IE 8]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-    <div class="error-pagewrap">
+	<div class="error-pagewrap">
 		<div class="error-page-int">
-			<div class="content-error">
-				<h1>ERROR <span class="counter"> 404</span></h1>
-				<p>Sorry, but the page you are looking for has note been found. Try checking the URL for the error, then hit the refresh button on your browser or try found something else in our app.</p>
-				<a href="index_admin.jsp">Dashboard</a>
-				<a href="#">Report Problem</a>
+			<div class="hpanel">
+				<div class="panel-body text-center lock-inner">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					<br/>
+					<h4><span class="text-success">3:43:15 PM</span> <strong>Friday, February 27, 2015</strong></h4>
+					<p>Your are in admin screen.You need to enter your admin password to enter admin screen.</p>
+					<form action="#" class="m-t">
+						<div class="form-group">
+							<input type="password" required="" placeholder="******" class="form-control">
+						</div>
+						<button class="btn btn-primary block full-width" type="submit">Login as admin</button>
+					</form>
+				</div>
 			</div>
-			<div class="text-center login-footer">
-				<p>Copyright Â© 2018. All rights reserved. Template by <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
-			</div>
+		
 		</div>   
-    </div>
+	</div>
     <!-- jquery
 		============================================ -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -105,34 +112,24 @@
 		============================================ -->
     <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
-    <!-- counterup JS
-		============================================ -->
-    <script src="js/counterup/jquery.counterup.min.js"></script>
-    <script src="js/counterup/waypoints.min.js"></script>
-    <script src="js/counterup/counterup-active.js"></script>
     <!-- metisMenu JS
 		============================================ -->
     <script src="js/metisMenu/metisMenu.min.js"></script>
     <script src="js/metisMenu/metisMenu-active.js"></script>
-    <!-- morrisjs JS
-		============================================ -->
-    <script src="js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
-    <!-- calendar JS
-		============================================ -->
-    <script src="js/calendar/moment.min.js"></script>
-    <script src="js/calendar/fullcalendar.min.js"></script>
-    <script src="js/calendar/fullcalendar-active.js"></script>
     <!-- tab JS
 		============================================ -->
     <script src="js/tab.js"></script>
+    <!-- icheck JS
+		============================================ -->
+    <script src="js/icheck/icheck.min.js"></script>
+    <script src="js/icheck/icheck-active.js"></script>
     <!-- plugins JS
 		============================================ -->
     <script src="js/plugins.js"></script>
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
-     <!-- tawk chat JS
+    <!-- tawk chat JS
 		============================================ -->
     <script src="js/tawk-chat.js"></script>
 </body>
